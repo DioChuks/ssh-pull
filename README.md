@@ -23,13 +23,13 @@ A simple bash script to set up SSH keys, verify the SSH connection with GitHub (
 2. Make the script executable:
 
     ```bash
-    chmod +x start_ssh.sh
+    chmod +x start_ssh_pull.sh
     ```
 
 3. Run the script:
 
     ```bash
-    ./start_ssh.sh
+    ./start_ssh_pull.sh
     ```
 
 4. Follow the prompts:
@@ -40,7 +40,7 @@ A simple bash script to set up SSH keys, verify the SSH connection with GitHub (
 ## Example
 
 ```bash
-$ ./start_ssh.sh
+$ ./start_ssh_pull.sh
 Running the ssh-agent
 Enter SSH PRIVATE KEY NAME (default is id_ed25519): 
 Adding the ssh private key: id_ed25519
